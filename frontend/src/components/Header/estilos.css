@@ -1,0 +1,144 @@
+.headerTienda{
+    width: 100%;
+    height: 100px;
+    background: #F4A493;
+    
+}
+
+.subHeader{
+    max-width: 1100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;   
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logo .logoimage{
+    width: 100px;
+}
+
+.buscar {
+    width: 560px;
+    position: relative;
+    background: #fff;
+    height: 36px;
+    border-radius: 1px;
+    overflow: hidden;
+    display: flex;
+  }
+.buscNombre {
+    width: 518px;
+    border: 0;
+    height: 36px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+.contenedorBusqueda {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  .menuD{
+    left: 50px;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+.ingresarB {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    color: #F4A493;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  
+  }
+.more {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+.carrito {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px
+  }
+
+.authContainer{
+  color: #212121;
+  margin: 0 auto;
+  border-radius: 2px;
+  height: 528px;
+  max-width: 750px;
+  min-width: 650px;
+}
+.rowd{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 528px;
+    max-width: 750px;
+    min-width: 650px;
+}
+
+.leftspace{
+  width: 40%;
+  height: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  
+  background-color: #F4A493;
+  background-repeat: no-repeat;
+  background-position: center 85%;
+  padding: 40px 33px;
+  box-sizing: border-box;
+}
+
+.rightspace{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prueba{
+  font-size: 14px;
+}
+
+
+.ingresarC{
+  display: block;
+  width: 100px;
+  height: 30px;
+
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+
+}

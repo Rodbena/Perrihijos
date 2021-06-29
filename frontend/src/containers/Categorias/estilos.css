@@ -1,0 +1,15 @@
+.modal-header{
+    padding: 5px 15px;
+    background-color: #333;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 21px;
+}
+
+.modal-footer{
+    padding: 5px 15px;
+}

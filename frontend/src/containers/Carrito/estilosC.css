@@ -1,0 +1,53 @@
+.divCarrito{
+    display: flex;
+}
+
+.cardC{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #cecece;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px !important;
+}
+
+
+
+.cardCHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-bottom: 1px solid #cecece;
+}
+
+.divCarrito{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.prodCarrito{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.prodCarrito img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.prodCarritoDetalles{
+    width: 680px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.botonE{
+    margin: 40px 10px;
+    background-color:  transparent;
+    border: none;
+    color: #F4A493;
+    cursor: pointer;
+}
